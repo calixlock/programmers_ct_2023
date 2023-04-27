@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p181910.Solution;
+import com.ll.level0.p181941.Solution;
 
 import java.awt.*;
 import java.util.Arrays;
