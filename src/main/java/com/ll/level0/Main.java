@@ -1,9 +1,16 @@
 package com.ll.level0;
-import com.ll.level0.p120817.Solution;
+import com.ll.level0.p181879.Solution;
+
+import java.awt.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] a = new int[]{1, 2};
-        System.out.println(sol.solution(a) );
+//        System.out.println();
+//        System.out.println(sol.solution2(lit)));
     }
 }
