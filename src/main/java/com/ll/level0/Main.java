@@ -11,6 +11,6 @@ public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
 //        System.out.println();
-        System.out.println(sol.solution("ProgrammerS123",11));
+        System.out.println(sol.solution(new String[]{"a", "b", "c"}));
     }
 }
