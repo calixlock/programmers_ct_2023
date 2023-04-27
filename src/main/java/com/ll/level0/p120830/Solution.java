@@ -11,7 +11,7 @@ public class Solution {
         return (n*price_Lamb_Skewers);
     }
 }
-public class Solution2 {
+class Solution2 {
     public int solution(int n, int k) {
         int lambTotalPrice = totalPrice(Menu.LAMB, n);
         int beverageTotalPrice = totalPrice(Menu.BEVERAGE, k);
