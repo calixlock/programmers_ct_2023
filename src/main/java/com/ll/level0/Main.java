@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p181941.Solution;
+import com.ll.level0.p181940.Solution;
 
 import java.awt.*;
 import java.util.Arrays;
@@ -11,6 +11,6 @@ public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
 //        System.out.println();
-        System.out.println(sol.solution(new String[]{"a", "b", "c"}));
+        System.out.println(sol.solution4("string",3));
     }
 }
