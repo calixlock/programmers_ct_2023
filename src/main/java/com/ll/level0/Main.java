@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p181907.Solution;
+import com.ll.level0.p120809.Solution;
 
 import java.awt.*;
 import java.util.Arrays;
@@ -10,9 +10,9 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.solution3("ProgrammerS123",11));
+//        System.out.println(sol.solution(new int[]{1, 2, 3, 4, 5}));
 //        System.out.println(sol.solution(new int[]{58, 44, 27, 10, 100},139));
-//        System.out.println(Arrays.toString(sol.solution4(new int[]{3, 4, 5, 2, 1},2)));
+        System.out.println(Arrays.toString(sol.solution2(new int[]{3, 4, 5, 2, 1})));
 //        System.out.println(sol.solution4(new int[]{3, 4, 5, 2, 1},2));
     }
 }
