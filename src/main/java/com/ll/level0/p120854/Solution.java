@@ -7,18 +7,21 @@ public class Solution {
         int[] answer = {};
         answer = new int[strlist.length];
         int i = 0;
-        for (String str:
-             strlist) {
+        for (String str :
+                strlist) {
             answer[i++] = str.length();
         }
 //        return Arrays.toString(answer);
         return answer;
     }
-    public int[] solution2(String[] strlist){
+
+    public int[] solution2(String[] strlist) {
         int[] answer = Arrays.stream(strlist).mapToInt(String::length).toArray();
-                return answer;
+        return answer;
     }
-    public int[] solution3(String[] strlist){
+
+    public int[] solution3(String[] strlist) {
         int[] answer = Arrays.stream(strlist).map(e -> e.length()).mapToInt(Integer::valueOf).toArray();
+        return answer;
     }
 }
