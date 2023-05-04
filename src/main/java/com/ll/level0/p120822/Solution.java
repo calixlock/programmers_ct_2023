@@ -1,5 +1,6 @@
 package com.ll.level0.p120822;
 
+import java.sql.Struct;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -18,11 +19,18 @@ public class Solution {
         String[] arr = my_string.split("");
         List<String> stringList = Arrays.stream(arr).collect(Collectors.toList());
         Collections.reverse(stringList);
-//        answer = stringList.stream().map(String::valueOf).collect(Collectors.joining());
-        for (String word:
-             stringList) {
-            answer+=word;
-        }
+        answer = stringList.stream().map(String::valueOf).collect(Collectors.joining());
+//        for (String word:
+//             stringList) {
+//            answer+=word;
+//        }
+        return answer;
+    }
+    public String solution3(String my_string){
+        String answer = "";
+        StringBuilder sb = new StringBuilder();
+        sb.append(my_string);
+        answer = sb.reverse().toString();
         return answer;
     }
 }
