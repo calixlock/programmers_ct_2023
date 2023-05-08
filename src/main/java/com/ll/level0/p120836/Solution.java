@@ -10,4 +10,9 @@ public class Solution {
             if(n%i == 0) answer+=1;
         }return answer;
     }
+    public int solution2(int n) {
+        int answer = 0;
+        answer = (int)IntStream.rangeClosed(1,n).filter(i->n%i==0).count();
+        return answer;
+    }
 }
