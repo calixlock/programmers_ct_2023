@@ -6,4 +6,12 @@ public class Solution {
         if (my_string.contains(target)) answer++;
         return answer;
     }
+    public int solution2(String my_string, String target) {
+        int answer = my_string.contains(target) ? 1:0;
+        return answer;
+    }
+    public int solution3(String my_string, String target) {
+        int answer = my_string.length() != my_string.replace(target,"").length() ? 1:0;
+        return answer;
+    }
 }
