@@ -14,4 +14,8 @@ public class Solution {
         int answer = my_string.length() != my_string.replace(target,"").length() ? 1:0;
         return answer;
     }
+    public int solution4(String my_string, String target) {
+        int answer = my_string.indexOf(target) == -1? 0:1;
+        return answer;
+    }
 }
