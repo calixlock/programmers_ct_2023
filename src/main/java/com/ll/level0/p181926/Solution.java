@@ -60,7 +60,7 @@ public class Solution {
     }
     public int solution5(int n, String control){
         for(char ch : control.toCharArray()){
-            n += ch == 'w' ? 1 : ch == 's' ? -1 : ch == 'd' ? 10 : ch == 'a'? -10;
+            n += ch == 'w' ? 1 : ch == 's' ? -1 : ch == 'd' ? 10 : -10;
         }return n;
     }
 }
