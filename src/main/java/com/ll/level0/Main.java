@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p181869.Solution;
+import com.ll.level0.p120906.Solution;
 
 import java.awt.*;
 import java.util.Arrays;
@@ -17,8 +17,7 @@ public class Main {
 //        System.out.println(sol.solution2("i love you"));
 //        System.out.println(sol.solution(4,12));
 //        System.out.println(sol.solution2(new int[]{1, 2, 7, 10, 11}));
-
-
+        System.out.println(sol.solution(1234));
 
     }
 }

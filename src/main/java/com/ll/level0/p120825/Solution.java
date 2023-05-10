@@ -22,7 +22,7 @@ public class Solution {
     public String solution3(String my_string, int n) {
         String answer = "";
         for (char str :
-                my_string.toCharArray().) {
+                my_string.toCharArray()) {
             for (int i = 0; i <n; i++) {
                 answer += (""+str).repeat(n);
             }

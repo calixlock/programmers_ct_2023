@@ -9,7 +9,7 @@ public class Solution {
     }
     public int solution2(String message) {
         int answer =0;
-        answer = message.length()*2
+        answer = message.length()*2;
         return answer;
     }
     public int solution3(String message){
