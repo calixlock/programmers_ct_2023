@@ -17,7 +17,8 @@ public class Solution {
         moneyList.add(money/5500);
         moneyList.add(money%5500);
         int[] answer = moneyList.stream()
-                .mapToInt(Integer::intValue)
+                .mapToInt(Integer.i)
+//                .mapToInt(Integer::intValue)
 //                .mapToInt(i -> i)
                 .toArray();
         return answer;
