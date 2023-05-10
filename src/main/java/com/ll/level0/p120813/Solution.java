@@ -11,6 +11,7 @@ public class Solution {
         return IntStream.range(1,n+1)
                 .filter(e->e%2!=0)
                 .toArray();
+//         return IntStream.rangeClosed(0,n).filter(e->e%2==1).toArray();
     }
     public int[] solution2(int n) {
 //        int len = (n+1)/2;
