@@ -11,11 +11,4 @@ public class Solution {
         return strArr;
     }
 
-    public String[] solution2(String[] strArr) {
-        String[] answer = {};
-        answer = Arrays.copyOfRange();
-
-        return answer
-    }
-
 }
