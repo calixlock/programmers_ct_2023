@@ -27,5 +27,5 @@ public class Solution {
                         .filter(e -> e%2 != 1)
                         .mapToObj(String::valueOf)
                         .collect(Collectors.joining()));
-    }
+       }
 }
