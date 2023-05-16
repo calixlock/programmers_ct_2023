@@ -8,10 +8,11 @@ public class Solution {
             return 1;
         }else return 2;
     }
-    public int solution2(int n){
+    public int solution2(int n) {
 //        if (n % Math.sqrt(n) == 0){
 //            return 1;
 //        }else return 2;
 //    }
         return n % Math.sqrt(n) == 0 ? 1 : 2;
+    }
 }
