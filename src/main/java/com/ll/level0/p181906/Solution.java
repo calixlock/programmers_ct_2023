@@ -19,7 +19,7 @@ public class Solution {
         if (my_string.startsWith(is_prefix)) return 1;
         return 0;
     }
-    public int solution3(String my_string, String is_prefix{
+    public int solution3(String my_string, String is_prefix){
         int k = 0;
         String[] arr = new String[my_string.length()];
         for (int i = 0; i < my_string.length(); i++) {

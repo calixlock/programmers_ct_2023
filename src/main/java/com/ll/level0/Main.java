@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p181906.Solution;
+import com.ll.level0.p120892.Solution;
 
 import java.awt.*;
 import java.util.Arrays;
@@ -24,6 +24,6 @@ public class Main {
 //        System.out.println((str.chars().mapToObj(i -> (char) i).filter(Character::isDigit).map(String::valueOf).mapToInt(Integer::valueOf).sum()));
 //        System.out.println(sol.solution4(new int[]{12, 4, 15, 46, 38, 1, 14, 56, 32, 10}));
 //        System.out.println(sol.solution(new int[]{4, 2, 6, 1, 7, 6},4));
-        System.out.println(sol.solution("banana","bananan"));
+        System.out.println(sol.solution("dfjardstddetckdaccccdegk",4));
     }
 }
