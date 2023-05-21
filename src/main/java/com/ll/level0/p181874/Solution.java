@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import static java.util.stream.Nodes.collect;
-
 public class Solution {
     public String solution(String myString) {
         String answer = "";
@@ -28,7 +26,6 @@ public class Solution {
                 .map(c -> c.equals('a') ? 'A' : c)
                 .map(String::valueOf)
                 .collect(Collectors.joining());
-
         return answer;
     }
 }
