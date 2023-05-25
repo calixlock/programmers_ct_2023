@@ -1,8 +1,9 @@
 package com.ll.level0;
-import com.ll.level0.p120850.Solution;
+import com.ll.level0.p120844.Solution;
 
 import java.awt.*;
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,7 +16,6 @@ public class Main {
 //        System.out.println(sol.solution(new int[]{58, 44, 27, 10, 100},139));
 //        System.out.println(sol.solution("dfjardstddetckdaccccdegk",4));
 //        System.out.println(sol.solution("sjf2sjkf233fjdk"));
-        String ss ="1001";
-        System.out.println(Integer.parseInt(ss));
+//        System.out.println(sol.solution2(new int[]{1,2,3},"right"));
     }
 }
