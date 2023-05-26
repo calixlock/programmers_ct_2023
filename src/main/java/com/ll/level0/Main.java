@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p120834.Solution;
+import com.ll.level0.p181834.Solution;
 
 import java.awt.*;
 import java.lang.reflect.Array;
@@ -17,6 +17,7 @@ public class Main {
 //        System.out.println(sol.solution("dfjardstddetckdaccccdegk",4));
 //        System.out.println(sol.solution("sjf2sjkf233fjdk"));
 //        System.out.println(sol.solution2(new int[]{1,2,3},"right"));
-//        System.out.println(sol.solution2(51));
+
+        System.out.println(6%1);
     }
 }
