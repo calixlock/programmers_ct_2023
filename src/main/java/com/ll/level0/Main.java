@@ -11,6 +11,9 @@ public class Main {
 //        System.out.println(sol.solution("dfjardstddetckdaccccdegk",4));
 //        System.out.println(sol.solution("sjf2sjkf233fjdk"));
 //        System.out.println(sol.solution2(new int[]{1,2,3},"right"));
-        System.out.println(Arrays.toString(sol.solution2("banana")));
+//        System.out.println(Arrays.toString(sol.solution2("banana")));
+        String str = "0010";
+        int a = Integer.parseInt(str);
+        System.out.println(a);
     }
 }
