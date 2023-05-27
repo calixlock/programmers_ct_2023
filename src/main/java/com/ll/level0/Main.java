@@ -12,8 +12,7 @@ public class Main {
 //        System.out.println(sol.solution("sjf2sjkf233fjdk"));
 //        System.out.println(sol.solution2(new int[]{1,2,3},"right"));
 //        System.out.println(Arrays.toString(sol.solution2("banana")));
-        String str = "0010";
-        int a = Integer.parseInt(str);
-        System.out.println(a);
+
+        System.out.println(5%5);
     }
 }
