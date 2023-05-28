@@ -13,6 +13,6 @@ public class Main {
 //        System.out.println(sol.solution2(new int[]{1,2,3},"right"));
 //        System.out.println(Arrays.toString(sol.solution2("banana")));
 
-        System.out.println(5%5);
+        System.out.println(7%7);
     }
 }

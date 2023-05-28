@@ -2,6 +2,7 @@ package com.ll.level0.p181891;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class Solution {
     public int[] solution(int[] num_list, int n) {
@@ -15,5 +16,10 @@ public class Solution {
             answer[j++] = num_list[i];
         }
         return answer;
+    }
+    public int[] solution2(int[] num_list, int n){
+        return IntStream.range(0,num_list.length)
+                .map(e->num_list[(e+n)%num_list.length])
+                .toArray();
     }
 }
