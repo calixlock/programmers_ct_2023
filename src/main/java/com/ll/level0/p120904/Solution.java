@@ -11,6 +11,8 @@ public class Solution {
         return answer;
     }
     public int Solution2(int num, int k){
-        return ("a"+num).indexOf(String.valueOf(k));
+//        int answer = (" "+num).indexOf(k+"");
+//        return answer == -1 ? -1 : answer;
+        return (" "+num).indexOf(String.valueOf(k));
     }
 }
