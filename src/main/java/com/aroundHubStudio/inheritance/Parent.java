@@ -1,4 +1,4 @@
-package com.ll.PT.inheritance;
+package com.aroundHubStudio.inheritance;
 
 public class Parent {
     public Parent() {
