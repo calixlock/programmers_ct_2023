@@ -1,4 +1,4 @@
-package com.aroundHubStudio.encapsuation;
+package com.aroundHubStudio.encapsulation;
 
 public class Student {
     private String name;

@@ -1,6 +1,4 @@
-package com.aroundHubStudio.encapsuation;
-
-import java.util.Arrays;
+package com.aroundHubStudio.encapsulation;
 
 public class School {
     public static void main(String[] args) {
