@@ -1,4 +1,4 @@
-package com.instance;
+package com.aroundHubStudio.instance;
 
 public class CallClass {
     Contents contents = new Contents();

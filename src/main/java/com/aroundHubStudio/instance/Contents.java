@@ -1,4 +1,4 @@
-package com.instance;
+package com.aroundHubStudio.instance;
 
 public class Contents {
     private String name;
