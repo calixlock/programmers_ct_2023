@@ -10,4 +10,7 @@ public class Solution {
         answer %= 9;
         return answer;
     }
+    public int solution2(String number) {
+        return number.chars().map(e-> (e-'0')).sum()%9;
+    }
 }
