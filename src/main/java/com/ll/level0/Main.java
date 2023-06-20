@@ -16,13 +16,9 @@ public class Main {
 //        System.out.println(Arrays.deepToString(new Solution().solution2(3)));
 //        System.out.println(Arrays.deepToString(new int[3][3]));
 //
-        HashMap<Integer,String> cal = new HashMap<>();
-        cal.put(1,"w");
-        cal.put(-1,"s");
-        cal.put(10,"d");
-        cal.put(-10,"a");
-        System.out.println(cal.get(1));
+        String a ="0123456789";
 
+        System.out.println(a.substring(1,2));
 
 
 //        long start = System.currentTimeMillis();
