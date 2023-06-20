@@ -4,18 +4,24 @@ import com.ll.level0.p181866.Solution;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
 //        Solution sol = new Solution();
 //        System.out.println(sol.solution(new solution("43 + 12"));
 //        System.out.println(new Solution().solution(new int[][]{{19, 498, 258, 587}, {63, 93, 7, 754}, {258, 7, 1000, 723}, {587, 754, 723, 81}}));
-        System.out.println(new Solution().solution("xdxccxbbbxaaaaxx"));
+//        System.out.println(new Solution().solution("xdxccxbbbxaaaaxx"));
 //        System.out.println(new Solution().solution("xabcxdefxghi"));
 //        System.out.println(Arrays.deepToString(new Solution().solution2(3)));
 //        System.out.println(Arrays.deepToString(new int[3][3]));
 //
-
+        HashMap<Integer,String> cal = new HashMap<>();
+        cal.put(1,"w");
+        cal.put(-1,"s");
+        cal.put(10,"d");
+        cal.put(-10,"a");
+        System.out.println(cal.get(1));
 
 
 
