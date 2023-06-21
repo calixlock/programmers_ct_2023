@@ -12,6 +12,6 @@ public class Solution {
         return answer;
     }
     public int solution2(int[] date1, int[] date2) {
-        return Arrays.compare(date1, date2) < 0 ?
+        return Arrays.compare(date1, date2) < 0 ? 1 : 0;
     }
 }
