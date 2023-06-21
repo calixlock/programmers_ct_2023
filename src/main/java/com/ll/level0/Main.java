@@ -1,5 +1,5 @@
 package com.ll.level0;
-import com.ll.level0.p181900.Solution;
+import com.ll.level0.p181871.Solution;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;
@@ -16,10 +16,9 @@ public class Main {
 //        System.out.println(Arrays.deepToString(new Solution().solution2(3)));
 //        System.out.println(Arrays.deepToString(new int[3][3]));
 //
-//        String a ="0123456789";
-//        System.out.println(a.substring(1,2));
+        System.out.println(new Solution().solution("aaaa","aa"));
 
-        System.out.println(new Solution().solution2("apporoograpemmemprs",new int[]{1, 16, 6, 15, 0, 10, 11, 3}) );
+//        System.out.println(new Solution().solution2("apporoograpemmemprs",new int[]{1, 16, 6, 15, 0, 10, 11, 3}) );
 
 
 //        long start = System.currentTimeMillis();
