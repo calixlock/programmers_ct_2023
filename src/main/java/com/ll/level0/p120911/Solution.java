@@ -1,11 +1,13 @@
 package com.ll.level0.p120911;
 
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class Solution {
     public String solution(String my_string) {
-        String answer = Arrays.stream(my_string.toLowerCase().split(""))
+        //toLowerCase(Locale.ROOT) >> 나라별 문자호환(변환) 관계없이 일관성 유지
+        String answer = Arrays.stream(my_string.toLowerCase(Locale.ROOT).split(""))
                 .sorted()
                 .collect(Collectors.joining());
         return answer;
