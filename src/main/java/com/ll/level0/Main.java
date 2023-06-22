@@ -6,6 +6,7 @@ import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
@@ -23,20 +24,28 @@ public class Main {
 
 //        System.out.println(new Solution().solution2("apporoograpemmemprs",new int[]{1, 16, 6, 15, 0, 10, 11, 3}) );
 
-        String answer = "BCad";
-        char[] c = answer.toLowerCase().toCharArray();
-        System.out.printf("c = " + c +"\n");
-        System.out.println("arr c = " + Arrays.toString(c));
-        Arrays.sort(c);
-        String cc = new String(Arrays.toString(c));
-        System.out.println("cc = " + cc);
+//        String answer = "BCad";
+//        char[] c = answer.toLowerCase().toCharArray();
+//        System.out.printf("c = " + c +"\n");
+//        System.out.println("arr c = " + Arrays.toString(c));
+//        Arrays.sort(c);
+//        String cc = new String(Arrays.toString(c));
+//        System.out.println("cc = " + cc);
         
-        String abc = "AdSsaDdsFZ";
-        String[] arr = abc.split("");
-//        Arrays.sort(arr);
-//        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
-        String aa = new String(Arrays.toString(arr));
+//        String abc = "AdSsaDdsFZ";
+//        String[] arr = abc.split("");
+////        Arrays.sort(arr);
+////        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+//        String aa = new String(Arrays.toString(arr));
 //        System.out.println("aa = " + aa);
+
+        String my_string = "AdSsaDdsFZ";
+        String[] arr = my_string.split("");
+        LinkedHashSet set = new LinkedHashSet<>(Arrays.asList(arr));
+        System.out.println("set = " + set);
+        System.out.println("set = " + String.join("",set));
+
+
 
 
 //        long start = System.currentTimeMillis();
