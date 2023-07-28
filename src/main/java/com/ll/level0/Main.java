@@ -48,8 +48,8 @@ public class Main {
 
 //        List<String> morseList  = new ArrayList<>(new String[]{".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};);
 //        System.out.println("morseList = " + morseList);
-Character.codePointOf(2);
-        System.out.println(Character.toString('a'+1));
+//Character.codePointOf(2);
+//        System.out.println(Character.toString('a'+1));
 
 //        long start = System.currentTimeMillis();
 //        System.out.println(start);
